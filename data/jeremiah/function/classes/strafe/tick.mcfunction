@@ -1,0 +1,1 @@
+# Strafe active class logic

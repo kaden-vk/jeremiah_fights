@@ -1,0 +1,1 @@
+# Ninja active class logic
