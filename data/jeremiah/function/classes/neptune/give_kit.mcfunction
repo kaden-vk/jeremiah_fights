@@ -13,9 +13,9 @@ item replace entity @s hotbar.2 with minecraft:heart_of_the_sea[minecraft:custom
 item replace entity @s hotbar.8 with minecraft:golden_apple 2
 
 # Armor
-item replace entity @s armor.head with
-item replace entity @s armor.chest with minecraft:iron_chestplate
-item replace entity @s armor.legs with minecraft:diamond_leggings
-item replace entity @s armor.feet with minecraft:diamond_boots
+# item replace entity @s armor.head with
+item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:unbreakable={},minecraft:enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with minecraft:diamond_leggings[minecraft:unbreakable={},minecraft:enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.feet with minecraft:diamond_boots[minecraft:unbreakable={},minecraft:enchantments={"minecraft:binding_curse":1}] 1
 
 effect give @s minecraft:water_breathing infinite 0 true

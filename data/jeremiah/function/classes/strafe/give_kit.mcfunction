@@ -15,9 +15,9 @@ item replace entity @s hotbar.7 with minecraft:fishing_rod[minecraft:unbreakable
 item replace entity @s hotbar.8 with minecraft:golden_apple 2
 
 # Armor
-item replace entity @s armor.head with
-item replace entity @s armor.chest with chainmail_chestplate
-item replace entity @s armor.legs with chainmail_leggings
-item replace entity @s armor.feet with diamond_boots
+# item replace entity @s armor.head with
+item replace entity @s armor.chest with chainmail_chestplate[minecraft:unbreakable={},minecraft:enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with chainmail_leggings[minecraft:unbreakable={},minecraft:enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.feet with diamond_boots[minecraft:unbreakable={},minecraft:enchantments={"minecraft:binding_curse":1}] 1
 
 effect give @s minecraft:speed infinite 0 true
