@@ -1,0 +1,9 @@
+# Give HillBilly equipment
+
+clear @s
+
+item replace entity @s hotbar.0 with minecraft:golden_axe[minecraft:custom_name={text:'Thingamajig',color: "dark_green",bold:true,italic:false},minecraft:unbreakable={}, enchantments={knockback:1}] 1
+item replace entity @s hotbar.1 with minecraft:crossbow[minecraft:custom_name={text:'Doohickey',color:"dark_green",bold:true,italic:false},minecraft:unbreakable={}, enchantments={"minecraft:multishot":1}] 1
+
+item replace entity @s hotbar.2 with player_head[custom_name=[{"text":"Tequila Rita BuzzBall","italic":false,"color":"aqua"}],food={nutrition:5,saturation:10,can_always_eat:1b},consumable={consume_seconds:0.5,sound:"block.bone_block.break",on_consume_effects:[{type:apply_effects,probability:1,effects:[{id:absorption,duration:300,amplifier:2, show_particles:false},{id:blindness,duration:80,amplifier:2},{id:nausea,duration:120,amplifier:10}]}]},profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxMWIyNWE0Y2Y1YzE5OTdhY2MwMTQxYzU0NDY1OWJmZTUyODAzY2VlZjdjZTBlNGRkMDUxYjY1NDRlNDFjOSJ9fX0="}]}]
+item replace entity @s weapon.offhand with firework_rocket[fireworks={explosions:[{shape:"small_ball",has_twinkle:1b,has_trail:1b,colors:[I;11546150],fade_colors:[I;11546150]},{shape:"small_ball",has_twinkle:1b,has_trail:1b,colors:[I;16383998],fade_colors:[I;16383998]},{shape:"small_ball",has_twinkle:1b,has_trail:1b,colors:[I;11546150],fade_colors:[I;11546150]},{shape:"small_ball",colors:[I;16383998],fade_colors:[I;16383998]}]},custom_name=["",{"text":"Big Boom","italic":false,"color":"dark_red"}],tooltip_display={hidden_components:[fireworks]}] 1
