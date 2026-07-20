@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "using_item": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:heart_of_the_sea",
+            "predicates": {
+              "minecraft:custom_data": "{neptune_heart:true}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jeremiah:classes/neptune/abilities/heart_of_the_sea"
+    }
+  }
